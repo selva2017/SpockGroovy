@@ -1,0 +1,14 @@
+package test
+
+import spock.lang.Specification
+
+class FourthExample extends Specification {
+
+	def "Feature without Explicit Block"(){
+		setup:
+		println "Setup ..."
+		setup:
+		println "Given ..."
+
+			}
+}

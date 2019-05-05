@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FourthExample" project="SpockFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="test.FourthExample" time="0.16">
+    <testcase name="Feature without Explicit Block" classname="test.FourthExample" time="0.16">
+      <error>groovy.lang.MissingMethodException: No signature of method: test.FourthExample.thrownImpl() is applicable for argument types: (null, null, java.lang.Class, test.FourthExample$_$spock_feature_0_0_closure1) values: [null, null, class java.lang.IndexOutOfBoundsException, test.FourthExample$_$spock_feature_0_0_closure1@cd3fee8]
+Possible solutions: thrown()&#13;
+	at test.FourthExample.Feature without Explicit Block(FourthExample.groovy:38)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

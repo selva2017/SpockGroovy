@@ -1,0 +1,13 @@
+package test
+
+import spock.lang.Specification
+
+class FirstExample extends Specification{
+	
+	def "We are going to see MAx value using MAth class"(){
+		
+		expect:
+		Math.max(2,3) == 3
+	}
+
+}

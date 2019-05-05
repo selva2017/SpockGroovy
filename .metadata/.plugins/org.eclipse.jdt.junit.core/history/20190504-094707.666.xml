@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FirstExample.We are going to see MAx value using MAth class" project="SpockFramework" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="We are going to see MAx value using MAth class" classname="test.FirstExample" time="0.041"/>
+</testrun>

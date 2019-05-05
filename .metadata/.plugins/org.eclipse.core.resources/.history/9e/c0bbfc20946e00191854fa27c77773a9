@@ -1,0 +1,17 @@
+package test
+
+import java.net.*
+
+class HttpUtil {
+
+	String url = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&minmag=2&limit=10&offset=11"
+	HttpURLConnection  connection = new URL(url).openConnection() 
+
+	// set some headers
+	connection.setRequestProperty( 'User-Agent', 'groovy-2.4.4' )
+	connection.setRequestProperty( 'Accept', 'application/json' )
+
+	// get the response code - automatically sends the request
+	println connection.responseCode + ": " + connection.inputStream.text
+
+}

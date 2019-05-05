@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ThirdClass" project="SpockFramework" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="test.ThirdClass" time="0.278">
+    <testcase name="Add 2 numbers" classname="test.ThirdClass" time="0.277">
+      <failure>
+        <expected>7
+</expected>
+        <actual>5
+</actual>Condition not satisfied:
+
+sum == 7
+|   |
+5   false
+&#13;
+	at test.ThirdClass.Add 2 numbers(ThirdClass.groovy:17)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

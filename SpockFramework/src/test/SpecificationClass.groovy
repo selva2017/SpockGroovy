@@ -1,0 +1,18 @@
+package test
+import spock.lang.*
+
+class SpecificationClass extends Specification{
+	
+//	def obj = new SumOfTwoNumbers()
+	@Shared obj = new SumOfTwoNumbers()
+	
+	def "Feature method 1"(){
+		given:
+		obj
+	}
+
+		def "Feature method 2"(){
+		given:
+		obj
+	}
+}

@@ -1,0 +1,24 @@
+package test
+
+import spock.lang.Specification
+
+class FourthExample extends Specification {
+
+	def "Feature without Explicit Block"(){
+
+				setup:
+		println "Setup ..."
+		def a = 5
+		def b = 6
+		def obj = new SumOfTwoNumbers()
+
+		when:
+		def sum = obj.adder(a, b)
+		
+		then:
+		sum == 11 ? "true" : "false"
+		//		expect:
+		//		println "Given ..."
+
+	}
+}

@@ -1,0 +1,22 @@
+package test
+
+import spock.lang.Shared
+import spock.lang.Specification
+
+class WebServices	extends Specification{
+
+	//	def obj = new SumOfTwoNumbers()
+	//	@Shared obj = new SumOfTwoNumbers()
+
+	def "get the earthquake data"(){
+
+		given:
+		//		def obj = new SumOfTwoNumbers()
+
+		when: "we request the earhquake data"
+		//		def sum = obj.adder(2,3)
+
+		then: "the response is shown"
+		//		sum == 7
+	}
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FourthExample" project="SpockFramework" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="test.FourthExample" time="0.18">
+    <testcase name="Feature without Explicit Block" classname="test.FourthExample" time="0.178"/>
+    <testcase name="Feature without Explicit Block 2" classname="test.FourthExample" time="0.002"/>
+  </testsuite>
+</testrun>

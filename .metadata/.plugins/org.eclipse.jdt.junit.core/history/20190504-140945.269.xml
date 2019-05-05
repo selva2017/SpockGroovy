@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="WebServices" project="SpockFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="test.WebServices" time="2.87">
+    <testcase name="get the earthquake data" classname="test.WebServices" time="2.87">
+      <error>java.lang.NullPointerException: Cannot invoke method getAt() on null object&#13;
+	at test.WebServices.get the earthquake data(WebServices.groovy:28)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
